@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDE - Milli Edebiyat Dönemi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-container {
+            max-width: 1000px;
+            margin: 60px auto 60px;
+            padding: 40px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            backdrop-filter: blur(10px);
+            color: var(--text-primary);
+        }
+        .content-layout {
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+        }
+        .book-cover {
+            width: 280px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            flex-shrink: 0;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .text-content h2 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #fff, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-content h4 {
+            color: #f472b6;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        .text-content p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .top-bar {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: rgba(255,255,255,0.05);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
+        }
+        .back-btn:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(129, 140, 248, 0.4);
+        }
+        @media (max-width: 900px) {
+            .content-layout { flex-direction: column; align-items: center; }
+            .book-cover { margin-bottom: 30px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-mesh"></div>
+
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+
+        <div class="content-layout">
+            <img src="../assets/grid/med.jpg" alt="Milli Edebiyat Dönemi" class="book-cover">
+
+            <div class="text-content">
+                <h2>Milli Edebiyat Dönemi</h2>
+                <h4>Türk edebiyatına katkıları nelerdir?</h4>
+
+                <p>Milli Edebiyat Dönemi, 1911-1923 yılları arasını kapsayan ve Türk edebiyatında köklü değişimlerin yaşandığı bir dönemdir. Bu dönem, Osmanlı İmparatorluğu'nun çöküş sürecinde milliyetçilik akımının güçlenmesiyle birlikte ortaya çıkmıştır. Edebiyatçılar, halkın anlayabileceği bir dille eserler vermeyi amaçlamışlardır.</p>
+
+                <p>Dönemin en belirgin özelliği, sade ve anlaşılır bir Türkçenin kullanılmasıdır. Servet-i Fünûn ve Fecr-i Âti dönemlerindeki ağır Osmanlıca yerine, halkın konuştuğu dil esas alınmıştır. Ömer Seyfettin, Ziya Gökalp ve Mehmet Emin Yurdakul gibi isimler bu akımın öncüleri olmuşlardır.</p>
+
+                <p>Milli Edebiyat Dönemi'nde şiirde hece ölçüsü tercih edilmiş, aruz ölçüsü terk edilmiştir. Konular Anadolu'dan, halkın yaşamından ve milli mücadeleden seçilmiştir. Hikâye ve roman türlerinde de Anadolu insanının hayatı, toplumsal sorunlar ve milli duygular işlenmiştir.</p>
+
+                <p>Ömer Seyfettin, kısa hikâyeleriyle bu dönemin en önemli yazarlarından biri olmuştur. "Kaşağı", "Bomba", "Yalnız Efe" gibi eserleri, sade dili ve güçlü anlatımıyla dikkat çeker. Ziya Gökalp ise Türkçülük düşüncesinin teorisyeni olarak hem edebiyatta hem de düşünce hayatında derin izler bırakmıştır.</p>
+
+                <p>Bu dönemin en önemli katkılarından biri, Türk edebiyatını halka yakınlaştırmasıdır. Edebiyat artık yalnızca aydın kesimin değil, tüm milletin malı olmuştur. Ayrıca milli bilinç ve kimlik oluşturma sürecinde edebiyat önemli bir araç olarak kullanılmıştır.</p>
+
+                <p>Sonuç olarak, Milli Edebiyat Dönemi, Cumhuriyet dönemi Türk edebiyatının temellerini atan, dilin sadeleşmesini sağlayan ve edebiyatı toplumla buluşturan çok değerli bir dönemdir. Bu dönemin etkileri, günümüz Türk edebiyatında hâlâ hissedilmektedir.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDE - Yazım Hataları</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-container { max-width:1000px; margin:60px auto; padding:40px; background:var(--card-bg); border:1px solid var(--card-border); border-radius:24px; backdrop-filter:blur(10px); color:var(--text-primary); }
+        .content-layout { display:flex; gap:50px; align-items:flex-start; }
+        .book-cover { width:280px; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.6); flex-shrink:0; border:1px solid rgba(255,255,255,0.1); }
+        .text-content h2 { font-size:2.8rem; margin-bottom:10px; background:linear-gradient(to right,#fff,#34d399); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .text-content h4 { color:#34d399; margin-bottom:25px; font-weight:400; }
+        .text-content p { font-size:1.15rem; line-height:1.7; color:var(--text-secondary); margin-bottom:20px; text-align:justify; }
+        .example-box { padding:20px; background:rgba(52,211,153,0.06); border:1px solid rgba(52,211,153,0.2); border-radius:14px; margin-bottom:20px; }
+        .example-box .wrong { color:#f87171; text-decoration:line-through; margin-right:12px; }
+        .example-box .correct { color:#34d399; font-weight:600; }
+        .top-bar { margin-bottom:40px; display:flex; align-items:center; }
+        .back-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 24px; background:rgba(255,255,255,0.05); color:white; text-decoration:none; border-radius:50px; font-weight:600; transition:all 0.3s; border:1px solid rgba(255,255,255,0.1); }
+        .back-btn:hover { background:#34d399; border-color:#34d399; color:#000; transform:translateY(-2px); box-shadow:0 5px 15px rgba(52,211,153,0.4); }
+        @media(max-width:900px){ .content-layout{flex-direction:column;align-items:center;} .book-cover{margin-bottom:30px;} }
+    </style>
+</head>
+<body>
+    <div class="background-mesh"></div>
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+        <div class="content-layout">
+            <img src="../assets/grid/yazimhatalari.jpg" alt="Yazım Hataları" class="book-cover">
+            <div class="text-content">
+                <h2>Yazım Hataları</h2>
+                <h4>Dilimizdeki bazı yazım hataları ve Türkçe yapılmış kelimeler</h4>
+
+                <p>Türkçe, zengin ve köklü bir dil olmasına rağmen günlük kullanımda sıkça yapılan yazım hataları bulunmaktadır. Bu hatalar, dilin doğru kullanılmaması sonucu ortaya çıkar ve zamanla yaygınlaşarak kabul görebilir. İşte en sık yapılan yazım hatalarından bazıları:</p>
+
+                <div class="example-box">
+                    <span class="wrong">yanlız</span> <span class="correct">yalnız ✓</span>
+                </div>
+                <div class="example-box">
+                    <span class="wrong">herşey</span> <span class="correct">her şey ✓</span>
+                </div>
+                <div class="example-box">
+                    <span class="wrong">hiçbirşey</span> <span class="correct">hiçbir şey ✓</span>
+                </div>
+                <div class="example-box">
+                    <span class="wrong">kendisiymiş</span> <span class="correct">kendisiymiş ✓ (ek fiilin yazımına dikkat)</span>
+                </div>
+                <div class="example-box">
+                    <span class="wrong">bi tane</span> <span class="correct">bir tane ✓</span>
+                </div>
+
+                <p>"De" ve "da" bağlacı, Türkçede en çok hata yapılan konulardan biridir. Bağlaç olan "de/da" ayrı yazılırken, hal eki olan "-de/-da" bitişik yazılır. Örneğin: "Ben de geldim" (bağlaç, ayrı) ile "Evde kaldım" (hal eki, bitişik) arasındaki fark önemlidir.</p>
+
+                <p>"Ki" bağlacı da benzer şekilde kafa karışıklığına yol açar. Bağlaç olan "ki" genellikle ayrı yazılırken, sıfat yapan "-ki" ve ilgi zamiri "-ki" bitişik yazılır. "Dünkü", "yarınki" gibi kelimeler bitişik yazılır.</p>
+
+                <p>Büyük harf kullanımı da sıkça hata yapılan alanlardan biridir. Özel isimler, cümle başları ve kurum adları büyük harfle başlar. Ancak mevsim adları, yön bildiren kelimeler ve akrabalık bildiren kelimeler (özel isim olarak kullanılmadıkça) küçük harfle yazılır.</p>
+
+                <p>Türkçeye yabancı dillerden giren kelimeler de yazım karmaşasına yol açmaktadır. "Organizasyon" mu yoksa "orgainzasyon" mu? "Aktivite" mi yoksa "aktüvite" mi? Bu tür kelimelerde TDK sözlüğüne başvurmak en doğru yoldur.</p>
+
+                <p>Sonuç olarak, dilimizi doğru ve güzel kullanmak hepimizin sorumluluğudur. Yazım kurallarına dikkat etmek, hem yazılı iletişimimizi güçlendirir hem de dilimizin zenginliğini korumamıza yardımcı olur.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

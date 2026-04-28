@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bize Ulaşın - Türk Dili ve Edebiyatı</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-container {
+            max-width: 800px;
+            margin: 60px auto 40px;
+            padding: 40px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+
+        .page-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 16px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .page-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #fff, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .contact-item strong {
+            color: white;
+        }
+
+        .top-bar {
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+        }
+
+        .back-btn:hover {
+            background: #f472b6;
+            border-color: #f472b6;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(244, 114, 182, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-mesh"></div>
+
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+
+        <img src="../assets/help.png" alt="Bize Ulaşın" class="page-image">
+        <h1 class="page-title">Bize Ulaşın</h1>
+        <p class="page-text">
+            Soru, görüş ve önerileriniz bizim için çok değerli. İçeriklerimiz hakkında geri bildirimde bulunmak, iş
+            birliği yapmak veya sadece edebiyat sohbeti etmek isterseniz aşağıdaki e-posta adresi üzerinden bize
+            ulaşabilirsiniz.
+        </p>
+        <div class="contact-info">
+            <div class="contact-item"><strong>E-Posta:</strong> fedevoral@gmail.com</div>
+            <p>https://github.com/fedevoral/tde-project GitHub Repository</p>
+        </div>
+    </div>
+</body>
+
+</html>

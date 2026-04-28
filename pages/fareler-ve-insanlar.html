@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>TDE - Fareler ve İnsanlar</title>
+    <style>
+        .page-container {
+            max-width: 1000px;
+            margin: 60px auto 60px;
+            padding: 40px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            backdrop-filter: blur(10px);
+            color: var(--text-primary);
+        }
+        .content-layout {
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+        }
+        .book-cover {
+            width: 280px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            flex-shrink: 0;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .text-content h2 {
+            font-size: 2.8rem;
+            margin-bottom: 5px;
+            background: linear-gradient(to right, #fff, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-content h4 {
+            color: #f472b6;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        .text-content p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .top-bar {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: rgba(255,255,255,0.05);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
+        }
+        .back-btn:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(129, 140, 248, 0.4);
+        }
+        @media (max-width: 900px) {
+            .content-layout {
+                flex-direction: column;
+                align-items: center;
+            }
+            .book-cover {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-mesh"></div>
+
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+        
+        <div class="content-layout">
+            <img src="../assets/grid/fareler-ve-insanlar.jpg" alt="Fareler ve İnsanlar" class="book-cover">
+            
+            <div class="text-content">
+                <h2>Fareler ve İnsanlar</h2>
+                <h4>(Spoiler içerir!!!)</h4>
+                
+                <p><b>“Fareler ve İnsanlar”</b>, 1937 yılında Amerikalı yazar John Steinbeck tarafından yazılmış, Amerikan edebiyatının önemli klasiklerinden biridir. Roman, 1930’ların Büyük Buhran dönemi Amerika’sında, ekonomik sıkıntılar ve toplumsal zorluklar içinde yaşam mücadelesi veren iki göçmen işçi olan George Milton ve Lennie Small’ın hayatını konu alır.</p>
+                
+                <p>George zeki, mantıklı ve planlı bir karakter iken, Lennie fiziksel olarak güçlü ancak zihinsel olarak çocuk gibi saf bir kişiliğe sahiptir. Lennie’nin hayvanlara ve özellikle yumuşak şeylere karşı aşırı bir düşkünlüğü vardır, bu da başlarına sürekli sorunlar açar. İkili birlikte çalışarak bir gün kendi çiftliklerini satın alma ve özgür bir hayat kurma hayalini kurar. Bu hayal, roman boyunca karakterlerin motivasyonunu ve dayanışmasını simgeler.</p>
+                
+                <p>Romanın temel temalarından biri dostluk ve yalnızlıktır. Büyük Buhran döneminde insanlar çoğu zaman yalnız ve çaresizdir; George ve Lennie’nin birbirine bağlılığı, bu yalnızlık ortamında insani bir umut ışığıdır. Ancak Lennie’nin kontrol edilemeyen güçleri ve olayların trajik sonuçları, insanların hayallerinin sıklıkla gerçeklikle çatışabileceğini gösterir.</p>
+                
+                <p>Bir diğer önemli tema ise Amerikan Rüyasıdır. George ve Lennie’nin küçük çiftlik hayali, birçok karakterin özlemini çektiği özgürlük ve güven duygusunun sembolüdür. Ancak Steinbeck, bu rüyanın toplumdaki sosyal adaletsizlikler ve bireysel hatalar nedeniyle çoğu zaman ulaşılmaz olduğunu da roman boyunca açıkça gösterir.</p>
+                
+                <p>Steinbeck’in dili yalın ama etkileyicidir; diyaloglar gerçekçi, karakterler inandırıcıdır. Özellikle Lennie’nin naif ve masum bakış açısı, okuyucuya hem sevgi hem de kaygı uyandırır. Romanın sonunda yaşanan trajik olay, okuyucuda hem üzüntü hem de düşünsel bir sorgulama bırakır: İnsanlık, hayaller ve güç arasındaki denge nasıl sağlanabilir?</p>
+                
+                <p>Sonuç olarak, Fareler ve İnsanlar yalnızca bir dostluk hikayesi değil, aynı zamanda toplumsal eşitsizlik, insanın doğası, hayaller ve kader üzerine derin bir düşüncedir. Roman, küçük yaşlı okuyuculardan yetişkinlere kadar geniş bir kesim için hem edebi hem de ahlaki açıdan öğretici niteliktedir.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

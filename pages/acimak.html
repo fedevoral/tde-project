@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDE - Acımak</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-container { max-width:1000px; margin:60px auto; padding:40px; background:var(--card-bg); border:1px solid var(--card-border); border-radius:24px; backdrop-filter:blur(10px); color:var(--text-primary); }
+        .content-layout { display:flex; gap:50px; align-items:flex-start; }
+        .book-cover { width:280px; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.6); flex-shrink:0; border:1px solid rgba(255,255,255,0.1); }
+        .text-content h2 { font-size:2.8rem; margin-bottom:10px; background:linear-gradient(to right,#fff,#f472b6); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .text-content h4 { color:#818cf8; margin-bottom:25px; font-weight:400; }
+        .text-content p { font-size:1.15rem; line-height:1.7; color:var(--text-secondary); margin-bottom:20px; text-align:justify; }
+        .top-bar { margin-bottom:40px; display:flex; align-items:center; }
+        .back-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 24px; background:rgba(255,255,255,0.05); color:white; text-decoration:none; border-radius:50px; font-weight:600; transition:all 0.3s; border:1px solid rgba(255,255,255,0.1); }
+        .back-btn:hover { background:var(--primary); border-color:var(--primary); transform:translateY(-2px); box-shadow:0 5px 15px rgba(129,140,248,0.4); }
+        @media(max-width:900px){ .content-layout{flex-direction:column;align-items:center;} .book-cover{margin-bottom:30px;} }
+    </style>
+</head>
+<body>
+    <div class="background-mesh"></div>
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+        <div class="content-layout">
+            <img src="../assets/grid/Acimak-Ozeti.png" alt="Acımak" class="book-cover">
+            <div class="text-content">
+                <h2>Acımak</h2>
+                <h4>Bir yalanın kurbanı olan Zehra'nın hikayesi</h4>
+                <p><b>"Acımak"</b>, Halide Edib Adıvar tarafından 1928 yılında yazılmış, Türk edebiyatının önemli romanlarından biridir. Eser, bir kadının toplumsal baskılar ve kişisel çatışmalar arasında sıkışarak yaşadığı trajediyi anlatır.</p>
+                <p>Romanın kahramanı Zehra, güzel ve hassas bir kadındır. Hayatı, etrafındaki insanların yalanları ve toplumun katı kurallarıyla şekillenir. Zehra'nın en büyük trajedisi, güvendiği insanlar tarafından aldatılması ve bu aldatmanın hayatını tamamen alt üst etmesidir.</p>
+                <p>Halide Edib, romanında acıma duygusunu derinlemesine inceler. Acımak, bazen sevginin, bazen de zayıflığın bir göstergesi olabilir. Zehra'ya acıyan insanlar, aslında onun hayatını daha da zorlaştırırlar. Bu paradoks, romanın en güçlü temalarından biridir.</p>
+                <p>Eserde toplumsal cinsiyet rolleri, kadının toplumdaki yeri ve bireysel özgürlük gibi konular işlenir. Halide Edib, dönemin toplumsal yapısını eleştirirken, kadınların yaşadığı zorlukları da gözler önüne serer.</p>
+                <p>Romanın dili akıcı ve etkileyicidir. Halide Edib'in psikolojik tahlilleri, karakterlerin iç dünyasını okuyucuya başarıyla aktarır. Zehra'nın çaresizliği ve umutsuzluğu, okuyucuda derin bir empati uyandırır.</p>
+                <p>Sonuç olarak, "Acımak" yalnızca bir aşk ve ihanet hikayesi değil, aynı zamanda toplumsal normların bireyi nasıl ezdiğini gösteren güçlü bir toplumsal eleştiridir. Eser, Türk edebiyatında kadın meselesini ele alan öncü yapıtlardan biri olma özelliğini taşır.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

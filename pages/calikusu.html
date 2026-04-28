@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDE - Çalıkuşu</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-container { max-width:1000px; margin:60px auto; padding:40px; background:var(--card-bg); border:1px solid var(--card-border); border-radius:24px; backdrop-filter:blur(10px); color:var(--text-primary); }
+        .content-layout { display:flex; gap:50px; align-items:flex-start; }
+        .book-cover { width:280px; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.6); flex-shrink:0; border:1px solid rgba(255,255,255,0.1); }
+        .text-content h2 { font-size:2.8rem; margin-bottom:10px; background:linear-gradient(to right,#fff,#fbbf24); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .text-content h4 { color:#818cf8; margin-bottom:25px; font-weight:400; }
+        .text-content p { font-size:1.15rem; line-height:1.7; color:var(--text-secondary); margin-bottom:20px; text-align:justify; }
+        .top-bar { margin-bottom:40px; display:flex; align-items:center; }
+        .back-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 24px; background:rgba(255,255,255,0.05); color:white; text-decoration:none; border-radius:50px; font-weight:600; transition:all 0.3s; border:1px solid rgba(255,255,255,0.1); }
+        .back-btn:hover { background:var(--primary); border-color:var(--primary); transform:translateY(-2px); box-shadow:0 5px 15px rgba(129,140,248,0.4); }
+        @media(max-width:900px){ .content-layout{flex-direction:column;align-items:center;} .book-cover{margin-bottom:30px;} }
+    </style>
+</head>
+<body>
+    <div class="background-mesh"></div>
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+        <div class="content-layout">
+            <img src="../assets/grid/calikusu.png" alt="Çalıkuşu" class="book-cover">
+            <div class="text-content">
+                <h2>Çalıkuşu</h2>
+                <h4>Reşat Nuri Güntekin'in ölümsüz romanı</h4>
+                <p><b>"Çalıkuşu"</b>, Reşat Nuri Güntekin tarafından 1922 yılında kaleme alınmış, Türk edebiyatının en sevilen ve en çok okunan romanlarından biridir. Eser, ilk olarak "İstanbul Kızı" adıyla bir tiyatro oyunu olarak yazılmış, ardından roman biçimine dönüştürülmüştür.</p>
+                <p>Romanın başkahramanı <b>Feride</b>, güzel, zeki, haylaz ve idealist bir genç kızdır. İstanbul'da varlıklı bir ailenin çocuğu olarak büyüyen Feride, yaramaz tavırları ve canlı kişiliğiyle "Çalıkuşu" lakabını alır. Feride, kuzeni Kâmuran ile nişanlanır; ancak düğün öncesi Kâmuran'ın başka bir kadınla ilişkisini öğrenince nişanı bozar ve İstanbul'dan kaçar.</p>
+                <p>Feride, Anadolu'nun çeşitli kasaba ve köylerine öğretmen olarak atanır. Buralarda halkın cehaletiyle, yoksulluğuyla, toplumsal baskılarla ve yerel yöneticilerin engellemeleriyle mücadele eder. Zeyniler Köyü'nden Kuyucak'a, oradan Çamlıca'ya kadar birçok farklı yerde görev yapar.</p>
+                <p>Roman, bir yandan Feride'nin aşk acısını ve duygusal olgunlaşmasını anlatırken, diğer yandan Kurtuluş Savaşı öncesi Anadolu'nun toplumsal tablosunu gözler önüne serer. Eğitimin önemi, kadının toplumdaki yeri ve bireysel bağımsızlık gibi temalar eserin odak noktalarıdır.</p>
+                <p>Feride'nin Anadolu yolculuğu, aynı zamanda bir kendini keşfetme yolculuğudur. Başlangıçta şımarık ve deneyimsiz bir İstanbul kızı olan Feride, yaşadığı zorluklarla olgunlaşır, güçlenir ve gerçek bir eğitimci kimliğine kavuşur. Kâmuran'a olan aşkı ise romanın sonuna kadar süren dramatik bir gerilim oluşturur.</p>
+                <p>Reşat Nuri Güntekin, akıcı ve samimi üslubuyla okuyucuyu Feride'nin dünyasına çeker. Romanın dili sade, anlatımı duygusal ve etkileyicidir. <b>"Çalıkuşu"</b>, yayımlandığı günden bu yana nesiller boyu okunmuş, defalarca filme ve diziye uyarlanmış, Türk edebiyatının vazgeçilmez klasiklerinden biri olmuştur.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

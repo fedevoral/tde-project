@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDE - Hikâye Türleri</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-container {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            backdrop-filter: blur(10px);
+            color: var(--text-primary);
+        }
+
+        .content-layout {
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+        }
+
+        .cover-image {
+            width: 280px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            flex-shrink: 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .text-content h2 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #fff, #10b981);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .text-content h4 {
+            color: #818cf8;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+
+        .text-content h5 {
+            font-size: 1.4rem;
+            color: #a5b4fc;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 5px;
+        }
+
+        .text-content p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .text-content ul {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .top-bar {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .back-btn:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(129, 140, 248, 0.4);
+        }
+
+        @media(max-width:900px) {
+            .content-layout {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cover-image {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-mesh"></div>
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+        <div class="content-layout">
+            <!-- Görseli ekleyeceğiniz alan -->
+            <img src="../assets/grid/hikaye.jfif" alt="Hikaye Türleri" class="cover-image">
+            <div class="text-content">
+                <h2>Hikâye (Öykü) Türleri</h2>
+                <h4>Olay ve Durum Hikâyeleri ile Temsilcileri</h4>
+
+                <h5>Olay Hikâyesi (Maupassant Tarzı)</h5>
+                <p>Olay hikâyesi, merkezinde bir olayın bulunduğu, serim, düğüm ve çözüm bölümlerine sıkı sıkıya bağlı
+                    kalınan hikâye türüdür. Fransız yazar <b>Guy de Maupassant</b> tarafından geliştirildiği için bu
+                    adla da anılır.</p>
+                <ul>
+                    <li>Okuyucuda merak duygusu uyandırmak ön plandadır.</li>
+                    <li>Olaylar mantıksal bir silsile içinde gelişir ve çarpıcı bir sonla biter.</li>
+                    <li><b>Türk Edebiyatındaki En Büyük Temsilcisi:</b> Ömer Seyfettin'dir. Ayrıca Refik Halit Karay,
+                        Reşat Nuri Güntekin ve Sabahattin Ali de bu türde önemli eserler vermiştir.</li>
+                </ul>
+
+                <h5>Durum (Kesit) Hikâyesi (Çehov Tarzı)</h5>
+                <p>Durum hikâyesi, belirli bir olayı anlatmak yerine günlük yaşamın herhangi bir kesitini, bir durumunu
+                    ele alan hikâye türüdür. Rus yazar <b>Anton Çehov</b> tarafından edebiyata kazandırıldığı için bu
+                    tarzla anılır.</p>
+                <ul>
+                    <li>Serim, düğüm, çözüm planına uyma zorunluluğu yoktur; hikaye birdenbire başlar ve bitmemişlik
+                        hissiyle son bulabilir.</li>
+                    <li>Merak ögesinden çok, duygu, hayal ve durumun psikolojik yönleri ön plandadır.</li>
+                    <li><b>Türk Edebiyatındaki En Büyük Temsilcileri:</b> Sait Faik Abasıyanık ve Memduh Şevket
+                        Esendal'dır.</li>
+                </ul>
+
+                <h5>Karşılaştırmalı Özet</h5>
+                <p>Olay hikâyesi okuru bir sinema filmi gibi sürükleyici bir maceranın içine çekerken, durum hikâyesi
+                    bir fotoğraf karesi gibi anın ruhunu hissettirmeye çalışır. Her iki tür de Türk edebiyatının
+                    zenginleşmesine eşsiz katkılar sağlamıştır.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDE - Şiirde Ahenk ve Söz Sanatları</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-container {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            backdrop-filter: blur(10px);
+            color: var(--text-primary);
+        }
+
+        .content-layout {
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+        }
+
+        .cover-image {
+            width: 280px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            flex-shrink: 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .text-content h2 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #fff, #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .text-content h4 {
+            color: #818cf8;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+
+        .text-content h5 {
+            font-size: 1.4rem;
+            color: #a5b4fc;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 5px;
+        }
+
+        .text-content p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .text-content ul {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .top-bar {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .back-btn:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(129, 140, 248, 0.4);
+        }
+
+        @media(max-width:900px) {
+            .content-layout {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cover-image {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-mesh"></div>
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+        <div class="content-layout">
+            <img src="../assets/grid/ahenk.jpg" alt="Şiirde Ahenk ve Söz Sanatları" class="cover-image">
+            <div class="text-content">
+                <h2>Şiirde Ahenk ve Söz Sanatları</h2>
+                <h4>Şiirin Büyülü Dünyasını Yaratan Unsurlar</h4>
+
+                <h5>Şiirde Ahenk (Ritim) Unsurları</h5>
+                <p>Şiirde müzikaliteyi ve akıcılığı sağlayan temel unsurlara ahenk unsurları denir:</p>
+                <ul>
+                    <li><b>Ölçü (Vezin):</b> Dizelerdeki hece sayısının eşitliğine dayanan <i>Hece Ölçüsü</i>, hecelerin
+                        uzunluk-kısalığına dayanan <i>Aruz Ölçüsü</i> ve kural tanımaz <i>Serbest Ölçü</i>.</li>
+                    <li><b>Kafiye (Uyak):</b> Dize sonlarındaki farklı anlam ve görevdeki ses benzerlikleridir (Yarım,
+                        Tam, Zengin, Tunç, Cinaslı).</li>
+                    <li><b>Redif:</b> Dize sonlarında aynı anlam ve görevdeki eklerin veya kelimelerin tekrarıdır.</li>
+                    <li><b>Asonans ve Aliterasyon:</b> Şiir içinde aynı ünlü harflerin (asonans) veya ünsüz harflerin
+                        (aliterasyon) ahenk yaratacak şekilde sıkça tekrar edilmesidir.</li>
+                </ul>
+
+                <h5>Sık Kullanılan Söz Sanatları</h5>
+                <p>Şiire estetik değer katan ve anlamı zenginleştiren sanatlardır:</p>
+                <ul>
+                    <li><b>Teşbih (Benzetme):</b> Aralarında ilgi bulunan iki kavramdan zayıf olanın güçlü olana
+                        benzetilmesidir. <i>(Aslan gibi cesur asker)</i></li>
+                    <li><b>İstiare (Eğretileme):</b> Benzetmenin temel ögelerinden sadece birinin (benzeyen veya
+                        kendisine benzetilen) kullanılmasıyla yapılan sanattır.</li>
+                    <li><b>Teşhis (Kişileştirme):</b> İnsana ait özelliklerin insan dışındaki varlıklara verilmesidir.
+                        <i>(Ağlayan bulutlar)</i>
+                    </li>
+                    <li><b>İntak (Konuşturma):</b> Kişileştirilen varlıkların konuşturulması sanatıdır.</li>
+                    <li><b>Mübalağa (Abartma):</b> Bir durumu olduğundan çok daha büyük veya küçük gösterme sanatıdır.
+                        <i>(Gözyaşım sel oldu)</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

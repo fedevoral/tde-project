@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDE - Nevruz</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-container { max-width:1000px; margin:60px auto; padding:40px; background:var(--card-bg); border:1px solid var(--card-border); border-radius:24px; backdrop-filter:blur(10px); color:var(--text-primary); }
+        .content-layout { display:flex; gap:50px; align-items:flex-start; }
+        .cover-image { width:280px; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.6); flex-shrink:0; border:1px solid rgba(255,255,255,0.1); }
+        .text-content h2 { font-size:2.8rem; margin-bottom:10px; background:linear-gradient(to right,#fff,#34d399); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .text-content h4 { color:#818cf8; margin-bottom:25px; font-weight:400; }
+        .text-content p { font-size:1.15rem; line-height:1.7; color:var(--text-secondary); margin-bottom:20px; text-align:justify; }
+        .top-bar { margin-bottom:40px; display:flex; align-items:center; }
+        .back-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 24px; background:rgba(255,255,255,0.05); color:white; text-decoration:none; border-radius:50px; font-weight:600; transition:all 0.3s; border:1px solid rgba(255,255,255,0.1); }
+        .back-btn:hover { background:var(--primary); border-color:var(--primary); transform:translateY(-2px); box-shadow:0 5px 15px rgba(129,140,248,0.4); }
+        @media(max-width:900px){ .content-layout{flex-direction:column;align-items:center;} .cover-image{margin-bottom:30px;} }
+    </style>
+</head>
+<body>
+    <div class="background-mesh"></div>
+    <div class="page-container">
+        <div class="top-bar">
+            <a href="../index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                Ana Sayfaya Dön
+            </a>
+        </div>
+        <div class="content-layout">
+            <img src="../assets/grid/nevruz.png" alt="Nevruz" class="cover-image">
+            <div class="text-content">
+                <h2>Nevruz</h2>
+                <h4>Baharın gelişini kutlayan binlerce yıllık gelenek</h4>
+                <p><b>Nevruz</b> (Farsça "yeni gün" anlamına gelir), her yıl 21 Mart'ta kutlanan ve baharın gelişini, tabiatın yeniden uyanışını simgeleyen kadim bir bayramdır. Türk dünyasından İran'a, Orta Asya'dan Balkanlara kadar geniş bir coğrafyada binlerce yıldır kutlanmaktadır.</p>
+                <p>Nevruz'un kökenleri, Türk mitolojisine ve Zerdüştlük inancına kadar uzanır. Türk geleneğinde Nevruz, Ergenekon Destanı ile ilişkilendirilir. Efsaneye göre Türkler, demir dağları eriterek Ergenekon'dan çıkış yolunu bulmuş ve özgürlüklerine kavuşmuşlardır. Bu çıkış gününün 21 Mart olduğuna inanılır.</p>
+                <p>Nevruz kutlamalarının en bilinen geleneği <b>ateş üzerinden atlamaktır</b>. Bu ritüel, kötülüklerden arınmayı ve yeni yıla temiz başlamayı simgeler. İnsanlar ateşin etrafında toplanır, şarkılar söyler, halaylar çeker ve ateşin üzerinden atlayarak "ağrılığımı, hastalığımı al, kızıllığını ve neşeni ver" derler.</p>
+                <p>Türk kültüründe Nevruz'da sofralara özel yemekler hazırlanır. <b>Semeni</b> (çimlendirilmiş buğdaydan yapılan tatlı), boyalı yumurtalar, çeşitli tatlılar ve mevsim sebzeleri Nevruz sofrasının vazgeçilmezleridir. "Yedi S" (Haft-sin) geleneği ise sofraya "S" harfiyle başlayan yedi farklı yiyeceğin konulmasını gerektirir.</p>
+                <p>Nevruz, 2009 yılında UNESCO tarafından <b>İnsanlığın Somut Olmayan Kültürel Mirası</b> listesine alınmıştır. Birleşmiş Milletler Genel Kurulu ise 2010 yılında 21 Mart'ı "Uluslararası Nevruz Günü" olarak ilan etmiştir. Bu kararlar, Nevruz'un evrensel kültürel değerini tescillemiştir.</p>
+                <p>Günümüzde Türkiye'de Nevruz, resmî olarak <b>"Nevruz Bayramı"</b> adıyla kutlanmaktadır. Ülke genelinde ateş yakma törenleri, halk oyunları gösterileri, konserler ve kültürel etkinlikler düzenlenir. Nevruz, yalnızca bir bahar kutlaması değil, aynı zamanda birlik, beraberlik ve yeniden doğuşun simgesidir.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
